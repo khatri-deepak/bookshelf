@@ -1,0 +1,41 @@
+#body {
+    background-color: rgb(141, 224, 224);
+}
+
+.book-container {
+    display: flex;
+    padding: 2em;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-link{
+    font-size: 1.25em;
+}
+
+header{
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.book-title{
+    font-family: times, "Times New Roman";
+    color: brown;
+}
+.book-author{font-family: times, "Times New Roman";
+    color: goldenrod;}
+.book-desc{font-family: times, "Times New Roman";
+    color: darkslategray;}
+
+#footer {
+margin-bottom:0px;
+}
+.labels {
+    background-color:rgb(224, 207, 207);
+}
+.heading{
+    font-weight: bold;
+    
+}
